@@ -38,7 +38,7 @@
 
 ## ➡️ 문서화
 
-<a href="https://www.notion.so/2-2-76808b2ab82542ea8bf495e985823281">@Pair2 Notion</a>
+<a href="https://equatorial-rhythm-d75.notion.site/2-2-76808b2ab82542ea8bf495e985823281">@Pair2 Notion</a>
 
 
 ## ➡️ 회의 내용
