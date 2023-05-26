@@ -13,7 +13,7 @@ const GlobalStyles = createGlobalStyle`
 
   button {
     color: #fff;
-    background-color: #fff;
+    background-color: ${({ theme }) => theme.PALETTE.brandColor};
     border: none;
     cursor: pointer;
     padding: 5px 10px;
