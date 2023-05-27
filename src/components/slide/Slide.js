@@ -20,8 +20,8 @@ const Slide = () => {
 		slidesToScroll: 1,
 		autoplay: false,
 		autoplaySpeed: 2000,
-		fade: true,
-		centerMode: true,
+		fade: false,
+		centerMode: false,
 		pauseOnHover: true,
 		nextArrow: <CustomNextArrow />,
 		prevArrow: <CustomPrevArrow />,
@@ -46,7 +46,8 @@ const ImgBox = styled.div`
 	height: 420px;
 `;
 const Img = styled.img`
-	width: 100%;
+	width: 530px;
+	margin: auto;
 	height: 100%;
 	overflow: hidden;
 `;
