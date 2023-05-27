@@ -4,7 +4,7 @@ export const PALETTE = {
 		200: "#d9d9d9",
 	},
 	fontColor: "#262626",
-	brandColor: "#F6B418",
+	brandColor: "#FFC439",
 	white: "#fff",
 	background: {
 		white: "#fff",
@@ -17,6 +17,7 @@ export const PALETTE = {
 
 const FONT_SIZE = {
 	small: "12px",
+	semiMedium: "14px",
 	medium: "16px",
 	large: "20px",
 };
