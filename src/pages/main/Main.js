@@ -7,6 +7,7 @@ import {
 	faHeart,
 	faPaperPlane,
 } from "@fortawesome/free-regular-svg-icons";
+import Slide from "components/slide/Slide";
 
 const Main = () => {
 	return (
@@ -18,15 +19,9 @@ const Main = () => {
 						<button>수정</button>
 						<button>삭제</button>
 					</S.ContentBtns>
-					<div
-						style={{
-							width: "530px",
-							height: "420px",
-							border: "1px solid #222",
-						}}
-					>
-						슬라이더 컴포넌트 영역
-					</div>
+					{/* <S.SlideBox> */}
+					<Slide />
+					{/* </S.SlideBox> */}
 					<S.Icons>
 						<div>
 							<FontAwesomeIcon
@@ -79,11 +74,14 @@ const CreateBtn = styled.button`
 `;
 
 const ContentBox = styled.div`
+	width: 630px;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	background-color: #fff;
 	height: 100%;
-	padding: 40px 50px;
+	/* padding: 40px 0px; */
 	box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.05);
 `;
 
@@ -108,6 +106,12 @@ const Icons = styled.div`
 	}
 `;
 
+const SlideBox = styled.div`
+	width: 530px;
+	height: 420px;
+	border: 1px solid #222;
+`;
+
 const S = {
 	Wrapper,
 	Container,
@@ -115,4 +119,5 @@ const S = {
 	ContentBox,
 	ContentBtns,
 	Icons,
+	SlideBox,
 };
