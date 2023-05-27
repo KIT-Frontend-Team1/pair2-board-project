@@ -48,14 +48,10 @@ export default Best;
 const StyledReactPaginateWapper = styled.div`
 	display: flex;
 	justify-content: center;
-	background-color: #fff;
 	width: 630px;
-
-	/* background-color: #f8f8f8; */
 `;
 const WrraperMaster = styled.div`
 	display: flex;
-	background-color: #f8f8f8;
 	justify-content: center;
 	width: 100%;
 `;

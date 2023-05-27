@@ -17,7 +17,7 @@ const GlobalStyles = createGlobalStyle`
     border: none;
     cursor: pointer;
     padding: 5px 10px;
-    font-size: ${({ theme }) => theme.FONT_SIZE.large};
+    font-size: ${({ theme }) => theme.FONT_SIZE.medium};
     border-radius: 5px;
   }
 
