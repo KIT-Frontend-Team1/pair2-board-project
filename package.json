@@ -15,7 +15,9 @@
 		"react-paginate": "^8.2.0",
 		"react-router-dom": "^6.10.0",
 		"react-scripts": "5.0.1",
+		"react-slick": "^0.29.0",
 		"react-toastify": "^9.1.2",
+		"slick-carousel": "^1.8.1",
 		"styled-components": "^5.3.10",
 		"styled-reset": "^4.4.6",
 		"web-vitals": "^2.1.4"
@@ -27,7 +29,7 @@
 		"eject": "react-scripts eject",
 		"lint": "eslint --cache \"src/**/*.{js,jsx}\"",
 		"lint:fix": "eslint --fix --cache \"src/**/*.{js,jsx}\"",
-		"install": "hisky install",
+		"install": "husky install",
 		"formatter": "prettier --write --cache \"src/**/*.{js,jsx}\""
 	},
 	"eslintConfig": {
