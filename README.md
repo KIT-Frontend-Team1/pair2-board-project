@@ -40,6 +40,11 @@
   - 페이지네이션 / 재원
   - 게시글, 댓글 CRUD / 예슬
 
+## ➡️ Main UI
+
+![메인UI디자인](https://github.com/KIT-Frontend-Team1/pair2-board-project/assets/123865139/9eb487f9-5ecd-4092-bd4e-114bf94d57d8)
+
+
 ## ➡️ 배포 링크 및 시연 영상
 
 ### 이미지 슬라이드
